@@ -19,13 +19,13 @@ echo "Hello World! My name is \"Fahimeh\" ";
 echo date("m.d.Y")
 ?>
 
-<h3>3.4 varibles in php</h3>
+<h3 style="color: darkblue; font-size: 18px;">3.4 varibles in php</h3>
 <?php 
 $title1="PHP is interesting";
 echo "<h1>" . $title1 . "</h1>";
 ?>
 
-<h3> 3.5 Table & Variables</h3>
+<h3 style="color: darkblue; font-size: 18px;"> 3.5 Table & Variables</h3>
 <?php
 $g1 = 5;
 $g2 = 4;
@@ -48,7 +48,7 @@ echo "
 ";
 ?>
 
-<h3> 4 screenshots of the development invironment</h3>
+<h3 style="color: darkblue; font-size: 18px;"> 4 screenshots of the development invironment</h3>
 <img style="width: 700px; height: 400px;" src="screenshot.png" alt="">
 
 

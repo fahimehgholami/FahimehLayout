@@ -13,5 +13,8 @@ molestiae quis repellendus quisquam in labore distinctio fugit ut autem.
     Ipsam aspernatur et quo asperiores facere repellat minima 
     perspiciatis voluptatibus corporis dolores?
 </p>
+<p>
+    lorem 
+</p>
 
 <?php include "footer" ?>

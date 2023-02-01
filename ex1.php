@@ -9,7 +9,6 @@ echo "Hello World! <br> ";
 echo "This is a new \"line\".";
 ?>
 
-
 <h1 style="color: darkblue; font-size: 18px;"> 3.2. Write PHP code to display the following message.</h1>
 <?php
 echo "Hello World! My name is \"Fahimeh\" ";

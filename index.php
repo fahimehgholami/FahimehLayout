@@ -1,20 +1,6 @@
 <?php include "header.php" ?>
+ <h1>Hello</h1>
 
-<h1> Some content</h1>
-<p> 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-Veniam aut facilis voluptate illum quidem reiciendis id vel, ipsam omnis
- delectus 
-molestiae quis repellendus quisquam in labore distinctio fugit ut autem.
-</p>
-<p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Quas tempora nostrum doloremque ipsum odit sed sapiente explicabo recusandae! 
-    Ipsam aspernatur et quo asperiores facere repellat minima 
-    perspiciatis voluptatibus corporis dolores?
-</p>
-<p>
-    lorem 
-</p>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita modi alias, eius assumenda consequuntur soluta quasi repellat voluptatum suscipit dolorem ab atque nam ipsa enim. Iste culpa quas veritatis!</p>
 
-<?php include "footer" ?>
+<?php include "footer.php" ?>

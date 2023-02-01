@@ -262,10 +262,12 @@ a:hover {
 /* End the Styles for Links section */
 
 /*php*/
-h1, h3{
+h1{
   color: #E1D7C6;
 }
-
+h3{
+  color: aliceblue;
+}
 .text_for_php {
   margin: 18px 18px 16px;
   color: #E1D7C6;

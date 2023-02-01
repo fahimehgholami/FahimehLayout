@@ -25,7 +25,7 @@ echo date("m.d.Y")
 <h3>varibles in php</h3>
 <?php 
 $title1="PHP is interesting!";
-echo "<h3>" . $title1 . "</h3>";
+echo "<h6>" . $title1 . "</h6>";
 ?>
 
 <!--3.5-->
@@ -60,6 +60,7 @@ echo "
 ";
 ?>
 <h3> Take a screenshot </h3>
+<img style="width:100%; height: 600px;" src="img/screenshot.png" alt="">
 
 <?php include "footer.php" ?>
 

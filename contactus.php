@@ -1,9 +1,8 @@
 <?php 
 $title = "Contact Us:HAMK";
 include("header.php")?>
-<h2 style="color: darkblue; font-size: 18px;">Contact Us </h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-     Neque rem esse vel facere laborum, natus cupiditate. Laudantium unde pariatur 
-     corporis saepe assumenda, voluptates libero quam ea. Nostrum reiciendis aperiam
-      quam!</p>
-      <?php include("footer.php")?>
+<h1>CONTACT US</h1>
+<p>
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.  
+</p>
+ <?php include("footer.php")?>

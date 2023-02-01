@@ -1,5 +1,4 @@
 </section>
-<!--End of the shammi's section-->
 
     <!-- Teamwork / Footer-->
     <div class="footer" alt="link-5">
@@ -9,7 +8,7 @@
             <a href="#">
               <img
                 class="hameenlinna-logo"
-                src="pictures/hameenlinna-logo.png"
+                src="img/hame.png"
                 width="60"
               />
             </a>
@@ -18,12 +17,12 @@
             <div class="col-md-4 item">
               <h3>Contact information</h3>
               <p>
-                Hämeenlinnan kaupunki<br />
-                PL 84<br />
+                Visahill 313<br />
+                PL 010<br />
                 13100 Hämeenlinna<br />
-                Puh. 03 1264
+                Puh. 03 1234
                 <a class="email" href="#footer"
-                  ><br /><br />visamaki@visamaki.fi</a
+                  ><br /><br />visahill@visamaki.fi</a
                 >
               </p>
               <p><a class="terms" href="#footer">Website terms of use</a></p>
@@ -62,8 +61,8 @@
                     target="_blank"
                   >
                     <img
-                      src="pictures/facebook.png"
-                      alt="facebook"
+                      src="img/youtube.png"
+                      alt="youtube"
                       width="50"
                       height="50"
                   /></a>
@@ -72,7 +71,7 @@
                     target="_blank"
                   >
                     <img
-                      src="pictures/insta.png"
+                      src="img/insta.png"
                       alt="instagram"
                       width="50"
                       height="50"
@@ -81,8 +80,8 @@
                 <p>
                   <a href="https://twitter.com/hmlkaupunki" target="_blank">
                     <img
-                      src="pictures/twitter.png"
-                      alt="twitter"
+                      src="img/facebook.png"
+                      alt="facebook"
                       width="50"
                       height="50"
                   /></a>
@@ -91,7 +90,7 @@
                     target="_blank"
                   >
                     <img
-                      src="pictures/youtube.png"
+                      src="img/twitter.png"
                       alt="twitter"
                       width="50"
                       height="50"
@@ -100,13 +99,12 @@
               </div>
             </div>
             <div class="row justify-content-center">
-              <p class="copyright">Team 3 © 2023</p>
+              <p class="copyright">FahimehGholami © 2023</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

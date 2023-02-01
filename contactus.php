@@ -1,5 +1,5 @@
 <?php 
-$tittle = "Contact Us:HAMK";
+$title = "Contact Us:HAMK";
 include("header.php")?>
 <h2 style="color: darkblue; font-size: 18px;">Contact Us </h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -49,6 +49,6 @@
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
       <h3 style="color: darkblue; font-size: 18px;">List of Tasks</h3>
-      some thing here
+      My First php Exercise
     </div>
     <div class="col-sm-9">

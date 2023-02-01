@@ -48,6 +48,11 @@ echo "
 ";
 ?>
 
+<h3> 4 screenshots of the development invironment</h3>
+<img style="width: 700px; height: 400px;" src="screenshot.png" alt="">
+
+
+
 <?php include("footer.php")?>
 
 

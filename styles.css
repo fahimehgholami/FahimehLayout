@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #27272a;
+  background-color: #243763;
 }
 .navbar {
   background-color: #ff6e31 !important;
@@ -263,37 +263,29 @@ a:hover {
 
 /*php*/
 h1, h3{
-  color: #ffbd31;
-
+  color: #E1D7C6;
 }
 
+.text_for_php {
+  margin: 18px 18px 16px;
+  color: #E1D7C6;
+}
+
+.text_for_php th,
+td {
+  background-color: #000000;
+}
 .text_for_php table,
 th,
 td {
-  border: 2px solid white;
+  width: 40%;
+  border: 2px solid #ff6e31;
   border-collapse: collapse;
-  width: 50%;
-  height: auto;
 }
-.text_for_php th,
-td {
-  background-color: #18181b;
-}
-.text_for_php {
-  margin: 2opx 20px 20px;
-  color: #ffbd31;
-}
-.list-items {
-  background-color: #27272a !important;
-  color: #e4e4e7;
-  padding-top: 20px;
-}
-.p_list li {
-  padding-top: 5px;
-  margin-top: 15px;
-}
-/* End of PHP */
-/*php end*/
+
+
+/* End of php */
+
 
 /* Media placement needs to be figured out once all the code is ready */
 @media (max-width: 767px) {

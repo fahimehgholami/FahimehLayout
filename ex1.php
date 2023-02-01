@@ -2,7 +2,7 @@
 $title = "Exersice1";
 include "header.php" ?>
 <!--3.1-->
-<h1>Write a simple PHP script to print your information. </h1>
+<h3>Write a simple PHP script to print your information. </h3>
 <?php
 //opening tag
 echo "Hello World! <br> ";
@@ -10,13 +10,13 @@ echo "Here's some information \"line\".";
 ?>
 
 <!--3.2-->
-<h1>Write PHP code to display the following message.</h1>
+<h3>Write PHP code to display the following message.</h3>
 <?php
 echo "Hello World! My name is \"Fahimeh\" ";
 ?>
 
 <!--3.3-->
-<h1> Current Date </h1>
+<h3> Current Date </h3>
 <?php 
 echo date("m.d.Y")
 ?>
@@ -25,7 +25,7 @@ echo date("m.d.Y")
 <h3>varibles in php</h3>
 <?php 
 $title1="PHP is interesting!";
-echo "<h1>" . $title1 . "</h1>";
+echo "<h3>" . $title1 . "</h3>";
 ?>
 
 <!--3.5-->
@@ -61,7 +61,6 @@ echo "
 ?>
 <h3> Take a screenshot </h3>
 
-
-
 <?php include "footer.php" ?>
+
 

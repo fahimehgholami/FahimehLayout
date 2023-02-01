@@ -1,6 +1,5 @@
 </section>
-
-    <!-- Teamwork / Footer-->
+    <!-- Footer-->
     <div class="footer" alt="link-5">
       <div id="footer" alt="link-5">
         <div class="container">

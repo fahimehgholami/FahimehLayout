@@ -1,11 +1,10 @@
-<?php include("header.php")?>
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title><?php echo $title ?></title>
+    <title> <?php echo $title ?> </title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -61,8 +60,7 @@
       </div>
     </nav>
     <center>
-    
+    <img style="width: 100%;" src="img/north.avif" alt="northen lights" class="img-fluid">
     </center>
     <section class="text_for_php">
 
-    <?php include("footer.php")?>

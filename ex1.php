@@ -2,19 +2,19 @@
 $title = "Exersice1";
 include("header.php")?>
 
-    <h1 style="color: darkblue; font-size: 18px;"> 3.1. Write a simple PHP script to print your information (Name and your groupid).  </h1>
+    <h1 style="color: orange; font-size: 18px;">Introduction </h1>
 <?php
 //opening tag
 echo "Hello World! <br> ";
-echo "This is a new \"line\".";
+echo "Here's some information \"line\".";
 ?>
 
-<h1 style="color: darkblue; font-size: 18px;"> 3.2. Write PHP code to display the following message.</h1>
+<h1 style="color: orange; font-size: 18px;"> 3.2. Write PHP code to display the following message.</h1>
 <?php
 echo "Hello World! My name is \"Fahimeh\" ";
 ?>
 
-<h1 style="color: darkblue;font-size: 18px;"> Current Date </h1>
+<h1 style="color: orange;font-size: 18px;"> Current Date </h1>
 <?php 
 echo date("m.d.Y")
 ?>
@@ -25,7 +25,7 @@ $title1="PHP is interesting";
 echo "<h1>" . $title1 . "</h1>";
 ?>
 
-<h3 style="color: darkblue; font-size: 18px;"> 3.5 Table & Variables</h3>
+<h3 style="color: orange; font-size: 18px;"> 3.5 Table & Variables</h3>
 <?php
 $g1 = 5;
 $g2 = 4;
@@ -48,8 +48,8 @@ echo "
 ";
 ?>
 
-<h3 style="color: darkblue; font-size: 18px;"> 4 screenshots of the development invironment</h3>
-<img style="width: 700px; height: 400px;" src="screenshot.png" alt="">
+<h3 style="color: orange; font-size: 18px;"> 4 screenshots of the development invironment</h3>
+<img style="width: 100%; height: 400px;" src="colors.webp" alt="">
 
 
 <?php include("footer.php")?>

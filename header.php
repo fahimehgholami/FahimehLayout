@@ -46,16 +46,16 @@
               <a class="nav-link" href="ex1.php"><b>Exercise 1</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#carousel"><b>SIGHTS</b></a>
+              <a class="nav-link" href="index.php"><b>Exercise 2</b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#why"><b>WHY HÄMEENLINNA</b></a>
+              <a class="nav-link" href="contactus.php"><b>Contact Us</b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#link4"><b>USEFUL LINKS</b></a>
+              <a class="nav-link" href="aboutus.php"><b>About Us</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#footer"><b>CONTACT US</b></a>
+              <a class="nav-link" href="footer.php"><b>Footer</b></a>
             </li>
           </ul>
         </div>

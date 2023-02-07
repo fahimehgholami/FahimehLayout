@@ -99,6 +99,13 @@
             </div>
             <div class="row justify-content-center">
               <p class="copyright">FahimehGholami © 2023</p>
+              <p> 
+              <?php
+               $name = $_SERVER['PHP_SELF'];
+                $FileName = basename ($name);
+                echo "$FileName last modified: " . date ("F d Y H:i:s", filemtime($FileName));
+              ?>
+              </p>
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-<?php include"header.php" ?>
+<?php include "header.php" ?>
 <h3>
     Exxercise 3 In-class Task Variable & Operators
 </h3>
@@ -12,4 +12,4 @@
 
 </from>
 
-<?php include"footer.php" ?>
+<?php include "footer.php" ?>

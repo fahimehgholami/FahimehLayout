@@ -55,6 +55,11 @@
             <li class="nav-item dropdown">
               <a class="nav-link" href="contactus.php"><b>Contact Us</b></a>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="variable.php"><b>
+                exercise 2
+              </b></a>
+            </li>
           </ul>
         </div>
       </div>

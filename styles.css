@@ -269,10 +269,22 @@ h3{
   color: aliceblue;
 }
 .text_for_php {
-  margin: 18px 18px 16px;
+  margin: 5rem 18px 18px 16px;
   color: #E1D7C6;
 }
+.table {
+  width: 80% !important;
+}
 
+.input-style {
+  width: 90% !important;
+  height: 130% !important;
+}
+.submit-style {
+  margin-left: 28rem;
+  width: 30% !important;
+  height: 130% !important;
+}
 
 
 /* End of php */

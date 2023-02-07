@@ -63,8 +63,8 @@
         </div>
       </div>
     </nav>
-    <center>
-    <img style="width: 100%;" src="img/north.avif" alt="northen lights" class="img-fluid">
-    </center>
+    <div>
+    <img style="width: 100%;" src="" alt="northen lights" class="img-fluid">
+</div>
     <section class="text_for_php">
 

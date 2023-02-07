@@ -8,24 +8,23 @@
 <form action="action.php" method="post"> 
 
     <div class="row">
+      <div class="col">
+      <input type="text" name="fname" required  placeholder="First Name" class="form-control input-style" ></div>
     <div class="col">
-    <input type="text" name="fname" required  placeholder="First Name" class="form-control" > </div>
-    <div class="col">
-    <input type="text" name="lname"  required  placeholder="Last Name"  class="form-control"> </div>
+    <input type="text" name="lname"  required  placeholder="Last Name"  class="form-control input-style"> </div>
     </div>
-
+    <br>
+    <div class="row">
+    <div class="col">
+    <input type="date" name="bdate" required  placeholder="Birth Date" class="form-control input-style" >  </div>
+    <div class="col">
+    <input type="color" name="color" required  placeholder="Favorite Color" class="form-control input-style" > </div>
+    </div>
+<br>          
 
     <div class="row">
     <div class="col">
-    <input type="date" name="bdate" required  placeholder="Birth Date" class="form-control" >  </div>
-    <div class="col">
-    <input type="color" name="color" required  placeholder="Favorite Color" class="form-control" > </div>
-    </div>
-
-
-    <div class="row">
-    <div class="col">
-    <input type="submit" value="Submit" placeholder="Submit" class="form-control">  </div>
+    <input type="submit" class="form-control input-style submit-style" value="Submit" placeholder="Submit" class="submit-btn form-control">  </div>
     </div>
 
 </div>

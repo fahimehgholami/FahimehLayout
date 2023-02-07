@@ -1,9 +1,8 @@
 <?php include "header.php";
 
-
 $fname =$_post['fname'];
 $lname =$_post['lname'];
-$bdate =$_post['bdate'];
+$dob =$_post['bdate'];
 $color =$_post['color'];
 echo " <h3> Welcome $fname $lname </h3> "
 ?>

@@ -30,35 +30,34 @@ echo "<h6>" . $title1 . "</h6>";
 
 <!--3.5-->
 <h3>Table & Variables</h3>
+<table class="table table-success table-striped">
 <?php
 $g1 = 5;
 $g2 = 4;
 $g3 = 5;
-echo "
-<table>
-<tr>
-<th> S.N </th>
- <th> Name  </th>
-  <th> Grade </th>
-</tr>
-<tr>
-<th> 1 </th> 
-<th> Fahimeh </th> 
-<th> $g1 </th>
-</tr>
-<tr>
-<th> 1 </th> 
-<th> Ferdous </th> 
-<th> $g2 </th>
-</tr>
-<tr>
-<th> 1 </th>
- <th> John </th> 
- <th> $g3 </th>
-</tr>
-</table>
-";
 ?>
+  <tr>
+    <th scope="col">S.N</th>
+    <th scope="col">Name</th>
+    <th scope="col">Grade</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Fahimeh</td>
+    <td><?php echo $g1?></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Ferdouse</td>
+    <td><?php echo $g2?></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>John</td>
+    <td><?php echo $g3?></td>
+  </tr>
+</table> 
+
 <h3> Take a screenshot </h3>
 <img style="width:100%; height: 600px;" src="img/screenshot.png" alt="">
 

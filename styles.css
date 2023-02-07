@@ -273,17 +273,6 @@ h3{
   color: #E1D7C6;
 }
 
-.text_for_php th,
-td {
-  background-color: #000000;
-}
-.text_for_php table,
-th,
-td {
-  width: 40%;
-  border: 2px solid #ff6e31;
-  border-collapse: collapse;
-}
 
 
 /* End of php */

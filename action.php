@@ -1,9 +1,11 @@
 <?php include "header.php";
 
-$fname =$_post['fname'];
-$lname =$_post['lname'];
-$dob =$_post['bdate'];
-$color =$_post['color'];
-echo " <h3> Welcome $fname $lname </h3> "
+$fname =$_POST['fname'];
+$lname =$_POST['lname'];
+$dob =$_POST['bdate'];
+$color =$_POST['color'];
+echo " <h3> Welcome $fname $lname /. 
+Your Favorite color is $color
+Your date of bitrh is $dob </h3> "
 ?>
 <?php include "footer.php" ?>

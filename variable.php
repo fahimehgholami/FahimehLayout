@@ -7,7 +7,7 @@
     First Name: <input type="text" name="fname" > <br>
     Last Name: <input type="text" name="lname" > <br>
     Birth Date:  <input type="date" name="bdate"> <br>
-    Select Your Favorite Color:  <input type="color" name="Color"> <br>
+    Select Your Favorite Color:  <input type="color" name="color"> <br>
     <input type="submit" value="Submit"> 
 
 </form>

@@ -43,9 +43,6 @@
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-              <a class="nav-link" href="#"><b>Home</b></a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="ex1.php"><b>Exercise 1</b></a>
             </li>

@@ -1,6 +1,6 @@
 <?php include "header.php" ?>
 
-<!-- form -->
+<!-- 1-2 form -->
 <h3>
     Exxercise 3 In-class Task Variable & Operators
 </h3>
@@ -31,7 +31,7 @@
 </div>
 </form>
 <br>
-<!-- table -->
+<!-- 3 table -->
  <h3>Table</h3>
  <h5>Prepare a simple html table and apply bootstrap style to the table. </h5>
  <table class="table table-success table-striped">
@@ -62,7 +62,7 @@ $g3 = 5;
   </tr>
 </table> 
 <br>
-<!--  string function -->
+<!-- 4 string function -->
 <h3> PHP Script</h3>
 <h5> Write a PHP script with two string variables. Assign any text to these variables. Join them together.  Print the length of the string. (Hint: string function)
 </h5>
@@ -75,7 +75,7 @@ echo strlen($text3);
 ?>
 <br>
 
-<!--   Add up the numbers -->
+<!--  5 Add up the numbers -->
 <h3>Add up the numbers</h3>
 <h5>Write a script to add up the numbers: 298, 234, 46. Use variables to store these numbers and echo statement to output your answer.
 </h5>
@@ -88,5 +88,17 @@ $total=$number1 + $number2 + $number3 ;
 echo "Numbers: 298, 234 and 46, Total = $total";
 ?>
 <br>
+
+
+<!--  6 use $_SERVER  -->
+<h5>Write a PHP script to detect the browser being used to view your pages.
+</h5>
+<?php
+echo $_SERVER ['HTTP_USER_AGENT'] . "\n\n";
+?>
+<br>
+
+<!--  7 footer section  -->
+<h5>Write a PHP script in the footer section of your universal footer just below the Copyright information to display the last modification time of a file.</h5>
 
 <?php include "footer.php" ?>

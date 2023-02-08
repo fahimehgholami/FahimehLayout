@@ -44,19 +44,22 @@
         >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="ex1.php"><b>Exercise 1</b></a>
+              <a class="nav-link" href="ex1.php"><b>EXERCISE 1</b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="variable.php"><b> Variable & Operators </b></a>
+              <a class="nav-link" href="variable.php"><b> VARIABLE & OPERATORS </b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="controlflow.php"><b> Control flow and loops </b></a>
+              <a class="nav-link" href="controlflow.php"><b> CONTROL FLOW & LOOPS </b></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="arrays.php"><b> ARRAYS </b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aboutus.php"><b>About Us</b></a>
+              <a class="nav-link" href="aboutus.php"><b>ABOUT US </b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="contactus.php"><b>Contact Us</b></a>
+              <a class="nav-link" href="contactus.php"><b>CONTACT US</b></a>
             </li>
             
            

@@ -45,10 +45,31 @@ if ($score > 80) {
 }
 ?>
 <!--4.4-->
+<?php
+echo "<hr><h5>Write a program to get inputs (age and name) from the user and based on their age, decide if he/she is eligible for voting</h5>";
+?>
 
-
+<form action="action.php" method="post">
+  <div class="row">
+    <div class="col">
+      <input class="form-control" type="text" placeholder="First Name" name="firstname" required><br>
+    </div>
+    <div class="col">
+      <input class="form-control" type="number" placeholder="Age" name="age" required><br>
+    </div>
+  </div>
+  <div class="row">
+    <input class="form-control" type="submit" value="Submit" name="Submit1" >
+  </div>
+</form>
+<!-- end of 4.4-->
 
 <!--4.5-->
+<?php
+echo "<hr><h5>In task 5, you used SERVER; to get the browser name. 
+Use Switch statement with strops function to print the name of the browser as below: 
+If someone is using Chrome it should print, you are using Goolge Chrome….
+</h5>";
 
-
+?>
 <?php include "footer.php" ?>

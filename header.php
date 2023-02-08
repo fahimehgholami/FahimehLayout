@@ -47,7 +47,10 @@
               <a class="nav-link" href="ex1.php"><b>Exercise 1</b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="variable.php"><b> Exercise 2</b></a>
+              <a class="nav-link" href="variable.php"><b> Variable & Operators </b></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="controlflow.php"><b> Control flow and loops </b></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="aboutus.php"><b>About Us</b></a>
@@ -55,6 +58,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link" href="contactus.php"><b>Contact Us</b></a>
             </li>
+            
            
           </ul>
         </div>

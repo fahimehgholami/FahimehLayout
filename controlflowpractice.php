@@ -1,5 +1,8 @@
 <?php include "header.php" ?>
 
+
+<!--I practiced here! It's not a part of exercises -->
+
 <!--if else statement-->
 <?php
 echo "<hr> <h5> if else statement:</h5>";

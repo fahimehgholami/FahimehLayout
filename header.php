@@ -47,13 +47,10 @@
               <a class="nav-link" href="ex1.php"><b>EXERCISE 1</b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="variable.php"><b> VARIABLE & OPERATORS </b></a>
+              <a class="nav-link" href="variable.php"><b> Exercise 2 </b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="controlflow.php"><b> CONTROL FLOW & LOOPS </b></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="arrays.php"><b> ARRAYS </b></a>
+              <a class="nav-link" href="controlflow.php"><b> Exercise 3</b></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="aboutus.php"><b>ABOUT US </b></a>

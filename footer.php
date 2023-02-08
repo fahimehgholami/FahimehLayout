@@ -101,9 +101,10 @@
               <p class="copyright" >FahimehGholami © 2023</p>
               <p class="justify-content-center text-center"> 
               <?php
-               $name = $_SERVER['PHP_SELF'];
-                $FileName = basename ($name);
-                echo "$FileName last modified: " . date ("F d Y H:i:s", filemtime($FileName));
+                echo $_SERVER['PHP_SELF'];
+                $fname = basename  ($_SERVER['PHP_SELF']);
+                $last_modified = filemtime($fname);
+                echo "Last modified on: " . date ('l jS \of F Y h:i:s A' , $last_modified);
               ?>
               </p>
             </div>

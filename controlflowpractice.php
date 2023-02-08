@@ -1,51 +1,28 @@
 <?php include "header.php" ?>
 
-<!--4.1 -->
+<!--if else statement-->
 <?php
-echo "<hr> <h5> Write a script that gets the current month and prints one of the following responses,
- depending on whether it's August or not:</h5>";
-$month = date("F");
-if ($month == "August") {
-    echo "<br>It's $month , It's still holiday.";
+echo "<hr> <h5> if else statement:</h5>";
+$a = 6;
+if ($a == 5){
+    echo "The Condition Is TRUE";
 }
 else {
-    echo "Not August, This is $month so, I don't have any holidays.<br>";
+    echo "The Condition Is FALSE <br>";
+    echo "The Number Is $a <br>";
 }
 ?>
-
-<!--4.2-->
+<!--Date Function -->
 <?php
-echo "<hr> <h5> Assign colour red and check to print one the following responses:</h5>";
-
+echo "<hr> <h5> if else statement with date function:</h5>";
+$d = date("D");
+if ($d == "Sat" or $d == "Sun") {
+    echo "<br>Today Is $d. It Is Weekend.";
+}
+else {
+    echo "Today Is $d. It Is a Working Day.<br>";
+}
 ?>
-
-<!--4.3-->
-<?php
-echo "<hr> <h5> Write a program to grade students based on their total score for a subject. Use variable to hold the total score.</h5>";
-$grade = $num <80 ;
-switch($grade){
-    case $num < 80 ;
-    echo "Excellent";
-        break;
-    case 70 < $num <80;
-    echo "<br>Great";
-        break; 
-        case 60 < $num <70;
-        echo "<br>Good";
-            break; 
-            case 50 < $num <60;
-            echo "<br>Pass";
-                break; 
-    default:
-    echo "<br>You Have Failed The Exam";
-        break;
-} 
-?>
-
-
-
-
-
 
 <!--if else if statement-->
 <?php 
@@ -123,5 +100,4 @@ foreach($x as $value){
 }
 
 ?>
-
 <?php include "footer.php" ?>

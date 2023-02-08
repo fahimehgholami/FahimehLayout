@@ -19,7 +19,7 @@ if (isset($_POST['Submit'])){
 $firstname = $_POST['firstname'];
 $age = $_POST['age'];
 
-echo $age >= 18 ? "<h3>congratulations $firstname!<br> <br>You are eligble to VOTE." : " Sorry $firstname!<br><br>  You are not eligble to VOTE!</h3>";
+echo $age >= 18 ? "<h3>congratulations $firstname!<br> <br>You are eligble to VOTE.</h3>" : "<h3> Sorry $firstname!<br><br>  You are not eligble to VOTE!</h3>";
  }
 ?>
 <?php include "footer.php" ?>

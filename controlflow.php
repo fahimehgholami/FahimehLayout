@@ -57,7 +57,7 @@ echo "<hr><h5>Write a program to get inputs (age and name) from the user and bas
     </div>
   </div>
   <div class="row">
-    <input class="form-control" type="submit" value="Submit" name="Submit1" >
+    <input class="submit-style" type="submit" value="Submit" name="Submit1" >
   </div>
 </form>
 <!-- end of 4.4-->

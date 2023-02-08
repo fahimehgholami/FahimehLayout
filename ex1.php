@@ -1,37 +1,37 @@
 <?php 
 $title = "Exersice1";
 include "header.php" ?>
+<h3>In-class Task 31.01.2023 (ex1.php)</h3>
 <!--3.1-->
-<h3>Write a simple PHP script to print your information. </h3>
 <?php
-//opening tag
+echo "<hr> <h5>Use Boilerplate to get the initial part of the HTML document and update the required information. </h5>";
 echo "Hello World! <br> ";
 echo "Here's some information \"line\".";
 ?>
 
 <!--3.2-->
-<h3>Write PHP code to display the following message.</h3>
 <?php
+echo "<hr><h5>Write a simple PHP script to print your information</h5>";
 echo "Hello World! My name is \"Fahimeh\" ";
 ?>
 
 <!--3.3-->
-<h3> Current Date </h3>
 <?php 
+echo "<hr><h5>Write the PHP code in to display the current date. </h5>";
 echo date("m.d.Y")
 ?>
 
 <!--3.4-->
-<h3>varibles in php</h3>
 <?php 
+echo "<hr> <h5>Put this variable as a title marked as h1 (heading 1) in your HTML document. </h5>";
 $title1="PHP is interesting!";
 echo "<h6>" . $title1 . "</h6>";
 ?>
 
 <!--3.5-->
-<h3>Table & Variables</h3>
 <table class="table table-success table-striped">
 <?php
+echo "<hr><h5>Use HTML table into echo and include 3 columns S.n., Name, and grade. Your table should look like the one below:</h5>";
 $g1 = 5;
 $g2 = 4;
 $g3 = 5;
@@ -58,7 +58,9 @@ $g3 = 5;
   </tr>
 </table> 
 
-<h3> Take a screenshot </h3>
+<?php
+echo "<hr><h5> Take a screenshot </h5>";
+?>
 <img style="width:100%; height: 600px;" src="img/screenshot.png" alt="">
 
 <?php include "footer.php" ?>

@@ -14,13 +14,11 @@ else {
 }
 ?>
 
+
 <!--4.2-->
 <?php
 echo "<hr> <h5> Assign colour red and check to print one the following responses:</h5>";
 $colour = "red";
-
-
-
 ?>
 
 <!--4.3-->
@@ -66,10 +64,40 @@ echo "<hr><h5>Write a program to get inputs (age and name) from the user and bas
 
 <!--4.5-->
 <?php
-echo "<hr><h5>In task 5, you used SERVER; to get the browser name. 
-Use Switch statement with strops function to print the name of the browser as below: 
+echo "<hr><h5>Use Switch statement with strops function to print the name of the browser as below: 
 If someone is using Chrome it should print, you are using Goolge Chrome….
 </h5>";
-
+$user_agent = $_SERVER['HTTP_USER_AGENT'];
+ echo $user_agent;
+// strpos() = function of string position
+// if (strpos($user_agent, 'Chrome') == true) {
+//     echo "<br> You are using Google Chrome";
+// }
+// else {
+//     echo "<br> You are using something else";
+// }
+// Using switch statement instead of if-elseif
+switch (true) {
+    case strpos($user_agent, 'Safari'):
+        echo "<br>";
+        echo "You are using Safari";
+        break;
+        case strpos($user_agent, 'Chrome'):
+            echo "<br>";
+            echo "Your are using Google Chrome";
+            break;
+    case strpos($user_agent, 'Edg'):
+        echo "<br>";
+        echo "You are using Microsoft Edge";
+        break;
+    case strpos($user_agent, 'Firefox'):
+        echo "<br>";
+        echo "You are using Mozilla Firefox";
+        break;
+    default:
+        echo "<br>";
+        echo "Browser can not be defined";
+        break;
+}
 ?>
 <?php include "footer.php" ?>

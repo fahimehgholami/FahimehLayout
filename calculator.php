@@ -37,7 +37,7 @@ if (isset($_GET["cal"])){
     }
 }
 if (isset($result)){
-    echo "<h3> Result: $result </h3>";
+    echo "<h3> <br >Result: $result </h3>";
 }
 ?>
 <?php include "footer.php" ?>

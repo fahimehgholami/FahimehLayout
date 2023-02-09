@@ -24,6 +24,35 @@ unset($courses1['1']);
 var_dump($courses1);
 ?>
 
+<!--5.3-->
+<?php 
+echo "<hr> <h5>Sort the following array: </h5>";
+$courses3=array(
+"1" => "PHP", 
+"2" => "HTML", 
+"3" => "JavaScript",
+"4" => "CMS",
+"5" => "Project");
+//ascending order sort by value:
+asort($courses3);
+    foreach ($courses3 as $key => $value) {
+        echo "a. $key = $value <br>";}
+
+//ascending order sort by Key:
+ksort($courses3);
+    foreach ($courses3 as $key => $value) {
+        echo "b. $key = $value <br>";}
+
+//descending order sort by Value:
+asort($courses3);
+    foreach ($courses3 as $key => $value) {
+        echo "c. $key = $value <br>";} 
+
+//ascending order sort by Key:
+Krsort($courses3);
+    foreach ($courses3 as $key => $value) {
+        echo "d) $key = $value <br>";
+}  
 
 
 
@@ -31,8 +60,7 @@ var_dump($courses1);
 
 
 
-
-
+?>
 
 
 

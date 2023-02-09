@@ -1,4 +1,4 @@
-
+<?php include "header.php" ?>
 <!--calculator... create a form  -->
 <br>
 <form action="" method = "GET" >
@@ -40,5 +40,6 @@ if (isset($result)){
     echo "<h3> Result: $result </h3>";
 }
 ?>
+<?php include "footer.php" ?>
 
 

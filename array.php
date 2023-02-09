@@ -78,8 +78,80 @@ foreach ($fav_color as $key => $hex) {
     }
 ?>
 
+<!--5.5-->
+<?php 
+    echo "<hr> <h5>Recorded temperatures :  <br> 78, 60, 62, 68, 71, 68, 73,
+    85, 66, 64, 76, 63, 75, 76, 73,<br> 68, 62, 73, 72, 65, 
+    74, 62, 62, 65, 64, 68, 73, 75, 79, 73.<br></h5>";
 
-<!--  echo "<hr> <h5> </h5>";  -->
+    echo "<br><h5> Calculation average temperature:<br> </h5>";
 
+    $month_temp = "78, 60, 62, 68, 71, 68, 73, 85, 66, 64, 76, 63, 81, 76, 73,
+    68, 72, 73, 75, 65, 74, 63, 67, 65, 64, 68, 73, 75, 79, 73.";
+
+// what is explode and what does the below code do? : 
+/*answer:
+
+explode() is a built in function in PHP used to split a string in different strings. 
+The explode() function splits a string based on a string delimiter, i.e. 
+it splits the string wherever the delimiter character occurs.
+ This functions returns an array containing the strings formed by splitting the original string.
+ Parameters: separator /OriginalString /NoOfElements :
+
+ Here we used separator.
+ whenever this character is found in the string it symbolizes end of one element of the array and start of another.
+ */
+$temp_array = explode(',', $month_temp);
+$tot_temp = 0;
+
+
+// What is count?
+/*
+answer:
+count($array, mode)
+This inbuilt function of PHP is used to count the current elements in the array.
+ The function might return 0 for the variable that has been set to an empty array.
+ Also for the variable which is not set the function returns 0. */
+
+$temp_array_length = count($temp_array);
+foreach($temp_array as $temp)
+{
+ $tot_temp += $temp;
+}
+ $avg_high_temp = $tot_temp/$temp_array_length;
+ echo "Average Temperature is : ".$avg_high_temp."
+"; 
+// what does sort do?
+/*answer:
+we used rsort() and Krsort() in previous exercise.
+The sort() function is an inbuilt function in PHP and is used to sort an array in ascending order.
+It sorts the actual array and hence changes are reflected in the original array itself. 
+The function provides us with 6 sorting types, according to which the array can be sorted.
+*/
+sort($temp_array);
+echo "<br> List of five lowest temperatures :";
+for ($i=0; $i< 5; $i++)
+{ 
+echo $temp_array[$i].", ";
+}
+echo "<br>List of five highest temperatures :";
+
+
+// explain the following loop
+/*answer:
+here we used 'for loop' [that is used when the user knows how many times the block needs to be executed.
+The for loop contains the initialization expression, test condition,
+ and update expression (expression for increment or decrement).]
+
+We are printing the five highest array values here. 
+we also used ' $i = $temp_array_length-5 ' which it means we want to get the total values in this array except the last 5 in it.
+ $i < $temp_array_length ==> means we want to get 5remaining in this array through the loop.
+
+*/
+for ($i=($temp_array_length-5); $i< ($temp_array_length); $i++)
+{
+echo $temp_array[$i].", ";
+}
+?>
 
 <?php include "footer.php" ?>

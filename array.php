@@ -14,6 +14,16 @@ for ($i = 0; $i < $index; $i++) {
 ?>
 
 
+<!--5.2-->
+<?php 
+echo "<hr> <h5> unset() / var_dump() / array_values() </h5>";
+$courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
+var_dump($courses1);
+echo "<h5> <br> One element deleted from the array below:</h5>";
+unset($courses1['1']);
+var_dump($courses1);
+?>
+
 
 
 

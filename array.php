@@ -58,7 +58,7 @@ Krsort($courses3);
 
 <!--5.3-->
 <?php 
-echo "<hr> <h5> Change all values to upper case:</h5>";
+    echo "<hr> <h5> Change all values to upper case:</h5>";
 $courses4=array("php", "html", "javascript", "cms", "project");
 
 var_dump($courses4);
@@ -68,6 +68,16 @@ for ($i = 0; $i < count($courses4); $i++) {
     echo "<li>" . $courses4[$i] . "<br>";
 }
 ?>
+
+<!--5.4-->
+<?php 
+    echo "<hr> <h5>List all your favorite colors and their hexadecimal equivalents: </h5>";
+$fav_color = array('Pink' => '#FCC2FC', 'Grey' => '#BDCDD6' , 'Peach'=> '#FFD4D4', 'Yellow' => '#F8F988' , 'Black' => '#000000', 'Beige' => '#F8EAD8');
+foreach ($fav_color as $key => $hex) {
+    echo "<li>One of my favorite colors ==> $key : $hex <br> ";
+    }
+?>
+
 
 <!--  echo "<hr> <h5> </h5>";  -->
 

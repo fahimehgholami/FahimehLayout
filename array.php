@@ -1,6 +1,37 @@
 <?php include "header.php" ?>
-<!--calculator... create a form  -->
 
+<!--In-class Task Arrays-->
+
+<!--5.1-->
+<?php
+echo "<hr> <h5> Write a php script to display courses as list: </h5>";
+
+$courses = array("PHP", "HTML", "JavaScript", "CMS", "Project");
+$index = count($courses);
+for ($i = 0; $i < $index; $i++) {
+    echo "<li>$i) $courses[$i] <br>";
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  echo "<hr> <h5> </h5>";  -->
+
+
+<!--calculator... create a form  -->
+<br>
 <form action="" method = "GET" >
 <input type= "number" placeholder = "Enter Your First Number" name="num1" required  >
 <input type= "number" placeholder = "Enter Your second Number" name="num2" required>

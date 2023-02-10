@@ -44,32 +44,29 @@
         >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="ex1.php"><b>EXERCISE 1</b></a>
+              <a class="nav-link" href="../layout/ex1.php"><b>EXERCISE 1</b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="variable.php"><b> EXERCISE 2 </b></a>
+              <a class="nav-link" href="../layout/variable.php"><b> EXERCISE 2 </b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="controlflow.php"><b> EXERCISE 3</b></a>
+              <a class="nav-link" href="../layout/controlflow.php"><b> EXERCISE 3</b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="array.php"><b>EXERCISE 4</b></a>
+              <a class="nav-link" href="../layout/array.php"><b>EXERCISE 4</b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="calculator.php"><b> CALCULATOR </b></a>
+              <a class="nav-link" href="../layout/calculator.php"><b> CALCULATOR </b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aboutus.php"><b>ABOUT US </b></a>
+              <a class="nav-link" href="../layout/aboutus.php"><b>ABOUT US </b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="contactus.php"><b>CONTACT US</b></a>
+              <a class="nav-link" href="../layout/contactus.php"><b>CONTACT US</b></a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div>
-    <img style="width: 100%;" src="" alt="northen lights" class="img-fluid">
-</div>
     <section class="text_for_php">
 

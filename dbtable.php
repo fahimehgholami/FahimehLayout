@@ -1,7 +1,7 @@
 <?php
 $servername="db";
 $username="addarticle";
-$password="Nima1202@/";
+$password="newstable";
 $dbname="addarticle";
 //creating connection
 $conn=new mysqli ($servername, $username, $password, $dbname);

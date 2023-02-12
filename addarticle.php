@@ -17,7 +17,8 @@ include '../layout/header.php';
 <option value="newstopic">environment</option>
 <option value="newstopic">fashion</option>
 <option value="newstopic">economy</option>
-<option value="dnewstopiciv">business</option>
+<option value="newstopic">business</option>
+<option value="newstopic">education</option>
 <option value="newstopic">entertainment</option>
 <option value="newstopic">others</option>
 </select>

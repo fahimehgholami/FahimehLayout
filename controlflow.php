@@ -1,4 +1,4 @@
-<?php include "header.php" ?>
+<?php include "../layout/header.php" ?>
 <h3>In-class Task Control flow and loops 08.02.2023 (controlflow.php)</h3>
 
 <!--4.1 -->
@@ -100,4 +100,4 @@ switch (true) {
         break;
 }
 ?>
-<?php include "footer.php" ?>
+<?php include "../layout/footer.php" ?>

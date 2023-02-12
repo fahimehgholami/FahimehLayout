@@ -1,4 +1,4 @@
-<?php include "header.php" ?>
+<?php include "../layout/header.php" ?>
 
 <!--In-class Task Arrays-->
 
@@ -154,4 +154,4 @@ echo $temp_array[$i].", ";
 }
 ?>
 
-<?php include "footer.php" ?>
+<?php include "../layout/footer.php" ?>

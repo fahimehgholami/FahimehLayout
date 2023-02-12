@@ -1,4 +1,4 @@
-<?php include "header.php" ?>
+<?php include "../layout/header.php" ?>
 
 <!-- 1-2 form -->
 <h3>
@@ -96,4 +96,4 @@ echo $_SERVER ['HTTP_USER_AGENT'] . "\n\n";
 <!--  7 footer section  -->
 <h5>Write a PHP script in the footer section of your universal footer just below the Copyright information to display the last modification time of a file.</h5>
 
-<?php include "footer.php" ?>
+<?php include "../layout/footer.php" ?>

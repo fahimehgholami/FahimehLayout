@@ -1,4 +1,4 @@
-<?php include "header.php"?>
+<?php include "../layout/header.php"?>
 
 <?php
 
@@ -22,4 +22,4 @@ $age = $_POST['age'];
 echo $age >= 18 ? "<h3>congratulations $firstname!<br> <br>You are eligble to VOTE.</h3>" : "<h3> Sorry $firstname!<br><br>  You are not eligble to VOTE!</h3>";
  }
 ?>
-<?php include "footer.php" ?>
+<?php include "../layout/footer.php" ?>

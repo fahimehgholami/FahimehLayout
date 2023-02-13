@@ -61,7 +61,7 @@ $g3 = 5;
 <?php
 echo "<hr><h5> Take a screenshot </h5>";
 ?>
-<img style="width:100%; height: 600px;" src="img/screenshot.png" alt="">
+<img style="width:100%; height: 600px;" src="/img/screenshot.png" alt="">
 
 <?php include "../layout/footer.php" ?>
 

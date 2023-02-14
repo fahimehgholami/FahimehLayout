@@ -7,7 +7,7 @@
             <a href="#">
               <img
                 class="hameenlinna-logo"
-                src="/img/hame.png"
+                src="/img/hameenlinna-logo.png"
                 width="60"
               />
             </a>

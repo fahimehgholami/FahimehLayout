@@ -11,7 +11,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../layout/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav
@@ -21,7 +21,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="index.php">
           <img
-            src="https://www.hameenlinna.fi/wp-content/uploads/2022/03/HML-Kaupunki-logo-RGB-01.png"
+            src="/img/hameenlinna-logo.png"
             alt="logo"
             width="40"
             height="40"

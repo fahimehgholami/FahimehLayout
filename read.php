@@ -19,7 +19,7 @@ if($result->num_rows > 0){
     //create a table
     echo"
         <tr>
-        <td><a href='updatesingle.php?=$row[id]'> $row[id]</a> </td>
+        <td><a href='updatesingle.php? id=$row[id] '> $row[id]</a> </td>
         <td>$row[title]</td>
         <td>$row[category]</td>
         <td>$row[link]</td>

@@ -1,6 +1,6 @@
 <?php 
 $title = "Exersice1";
-include "../layout/header.php" ?>
+include "header.php" ?>
 <h3>In-class Task 31.01.2023 (ex1.php)</h3>
 <!--3.1-->
 <?php
@@ -63,6 +63,6 @@ echo "<hr><h5> Take a screenshot </h5>";
 ?>
 <img style="width:100%; height: 600px;" src="/img/screenshot.png" alt="">
 
-<?php include "../layout/footer.php" ?>
+<?php include "footer.php" ?>
 
 

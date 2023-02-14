@@ -1,6 +1,6 @@
 <?php
 $title="test the news table";
-include '../layout/header.php';
+include 'header.php';
 ?>
 <form action="" method = "post" >
     <h5>Add your news here:</h5>
@@ -48,4 +48,4 @@ if(isset($_POST['submit'])){
     }
 }
 ?>
-<?php include "../layout/footer.php" ?>
+<?php include "footer.php" ?>

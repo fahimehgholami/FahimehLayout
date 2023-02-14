@@ -7,12 +7,19 @@ $sql = "select * from newstable";
 $result = $conn->query($sql);
 
 if($result->num_rows > 0){
-    echo" <table class='table'><tr><th>id</th><th>Title</th><th>Category</th><th>Link</th><th>Description</th></tr>"; 
+    echo" <table class='table'> 
+    <tr>
+    <th>id</th>
+    <th>Title</th>
+    <th>Category</th>
+    <th>Link</th>
+    <th>Description</th>
+    </tr>"; 
     while($row = $result -> fetch_assoc()){
     //create a table
     echo"
         <tr>
-        <td>$row[id]</td>
+        <td><a href='updatesingle.php?=$row[id]'> $row[id]</a> </td>
         <td>$row[title]</td>
         <td>$row[category]</td>
         <td>$row[link]</td>

@@ -28,6 +28,8 @@ echo date("m.d.Y")
 <noscript>
   Please enable JavaScript to view this content.
 </noscript>
+<!--make a button-->
+<input type="button" onclick="hello()" value="Click Me">
 
 <!--3.4-->
 <?php 
@@ -35,7 +37,14 @@ echo "<hr> <h5>Put this variable as a title marked as h1 (heading 1) in your HTM
 $title1="PHP is interesting!";
 echo "<h6>" . $title1 . "</h6>";
 ?>
-
+<!-- JavaScript-->
+<script>
+  //window.alert
+  window.alert("This will trigger an allert box");
+  window.alert(5+10);
+  //document.write
+  document.write("Hello this is interesting")
+</script>
 <!--3.5-->
 <table class="table table-success table-striped">
 <?php

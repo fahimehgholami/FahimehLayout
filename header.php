@@ -12,6 +12,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <!--Calling JavaScript-->
+    <script src="../layout/js/site.js"></script>
   </head>
   <body>
     <nav

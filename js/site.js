@@ -10,7 +10,7 @@ function add(){
 }
 //function to change the bc color of the page
 function changeColor(where,newColor){
-    if(where =="newColor"){
+    if(where =="background"){
         document.body.style.backgroundColor =newColor;
     }
 }

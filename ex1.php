@@ -99,7 +99,7 @@ echo "<hr><h5> Take a screenshot </h5>";
 <hr>
 <h5>Change The background color</h5>
 <form>
-<input type="color" name="background"></form>
+<input type="color" name="background" onchange="changeColor('background',this.value)"></form>
 
 <?php include "footer.php" ?>
 

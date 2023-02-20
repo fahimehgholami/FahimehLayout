@@ -21,7 +21,7 @@ echo "<hr><h5>Write the PHP code in to display the current date. </h5>";
 echo date("m.d.Y")
 ?>
 <br>
-<!-- JaveScript -->
+<!-- JaveScript ex -->
 <script>
   document.write("Hello world! This is JavaScript")
 </script>
@@ -40,19 +40,34 @@ echo "<h6>" . $title1 . "</h6>";
 <!-- JavaScript-->
 <script>
   //window.alert
-  window.alert("This will trigger an allert box");
-  window.alert(5+10);
+  //window.alert("This will trigger an allert box");
+  //window.alert(5+10);
   //document.write
   document.write("Hello this is interesting")
 </script>
+<br>
 <!--3.5-->
 <table class="table table-success table-striped">
+  <!--JavaScript-->
+  <br>
+<button onclick="add()">Click to add</button>
+  <br>
+  <hr>
+  
+  <p id="place1" style="color:red;background-color:yellow;"></p>
+    <!--second placeholder-->
+    <span id="place2" style="color:red;background-color:green;"></span>
+    <script>
+    document.getElementById("place1").innerHTML= "This will go to place1";
+    document.getElementById("place2").innerHTML= "This will go to span";
+  </script>
 <?php
 echo "<hr><h5>Use HTML table into echo and include 3 columns S.n., Name, and grade. Your table should look like the one below:</h5>";
 $g1 = 5;
 $g2 = 4;
 $g3 = 5;
 ?>
+  
   <tr>
     <th scope="col">S.N</th>
     <th scope="col">Name</th>
@@ -79,6 +94,12 @@ $g3 = 5;
 echo "<hr><h5> Take a screenshot </h5>";
 ?>
 <img style="width:100%; height: 600px;" src="/img/screenshot.png" alt="">
+
+<!--create an event that allows the users change the bc of the website-->
+<hr>
+<h5>Change The background color</h5>
+<form>
+<input type="color" name="background"></form>
 
 <?php include "footer.php" ?>
 

@@ -8,8 +8,16 @@ function hello(){
 function add(){
     document.write(5+6);
 }
+//function to change the bc color of the page
+function changeColor(where,newColor){
+    if(where =="newColor"){
+        document.body.style.backgroundColor =newColor;
+    }
+}
+//document.getElementById(id)
 //display or like echo
 //document.write
 //windows.alert
 //innerHTML
 //console.log
+//we use let to create variables

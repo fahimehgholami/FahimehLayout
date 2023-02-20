@@ -20,6 +20,14 @@ echo "Hello World! My name is \"Fahimeh\" ";
 echo "<hr><h5>Write the PHP code in to display the current date. </h5>";
 echo date("m.d.Y")
 ?>
+<br>
+<!-- JaveScript -->
+<script>
+  document.write("Hello world! This is JavaScript")
+</script>
+<noscript>
+  Please enable JavaScript to view this content.
+</noscript>
 
 <!--3.4-->
 <?php 

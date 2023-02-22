@@ -14,6 +14,12 @@ function changeColor(where,newColor){
         document.body.style.backgroundColor =newColor;
     }
 }
+
+//create variable and use it to change the color
+function changeColor(){
+    let color = document.getElementById('background').value;
+    document.body.ATTRIBUTE_NODE.style.backgroundColor = color;
+}
 //document.getElementById(id)
 //display or like echo
 //document.write

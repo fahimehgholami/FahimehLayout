@@ -66,6 +66,9 @@
             <li class="nav-item dropdown">
               <a class="nav-link" href="../layout/contactus.php"><b>CONTACT US</b></a>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="../layout/jsinclass.php"><b> JavaScript</b></a>
+            </li>
           </ul>
         </div>
       </div>

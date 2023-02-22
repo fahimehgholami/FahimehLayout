@@ -33,3 +33,20 @@ function changeFcolor(){
     let fcolor = document.getElementById('fcolor').value;
     document.body.style.color= color;
 }
+
+//crud
+//function trim(remove spaces in form)
+function crud(){
+    let fname=(document.form1.fname.value).trim();
+    if (fname.length<4){
+        alart("First name must have atleast 4 characters");
+        return false;
+    }
+}
+function fnameVal(){
+    let fname=(document.form1.fname.value).trim();
+    if (fname.length<4){
+        alart("First name must have atleast 4 characters");
+        return false;
+    }
+}

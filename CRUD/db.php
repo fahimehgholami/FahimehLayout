@@ -1,8 +1,8 @@
 <?php
 $servername = "db";
-$username = "capp1";
+$username = "root";
 $password = "password";
-$dbname = "capp1";
+$dbname = "caap1s";
 // creating connection
 $conn = new mysqli ($servername, $username, $password, $dbname);
 

@@ -1,8 +1,9 @@
 <?php
-$title = "Simple CRUD app";include('../header.php') ?>
+$title = "Simple CRUD app";
+include"../header.php" ?>
 
-<form action="" method="post" action="" onsubmit="return crud()" name="form1">
-    <input type="text" name="fname" placeholder="First Name" required onblur="fname()"><br>
+<form action="" method="post">
+    <input type="text" name="fname" placeholder="First Name" required><br>
     <input type="text" name="lname" placeholder="Last Name" required><br>
     <input type="text" name="city" placeholder="City" required><br>
     <select name="groupid">
@@ -32,4 +33,5 @@ $title = "Simple CRUD app";include('../header.php') ?>
     }
 
 ?>
+
 <?php include "../footer.php" ?>

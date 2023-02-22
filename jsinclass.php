@@ -13,13 +13,28 @@ Click to know date
 <button onclick="getElementById('p1').innerHTML=Date()" >
 Click to know date
 </button>
+<p id='p1'></p>
 <hr>
 <h5>Change the backgroun-color </h5>
+<form>
 <!--changeColor=Function-->
-<input type="color" id="bckground" onchange="changeColor()">
+<input type="color" id="background" onchange="changeColor()">
 </form>
+<hr>
+<h5>Change the font-color </h5>
+<form>
+<input type="color" id="fcolor" onchange="changeFcolor()">
+</form>
+<hr> 
+<h5> on mouse over & on mouse out:  </h5>
+<span onmouseover="this.style.color='blue';
+this.style.backgroundColor='yellow';
+this.style.fontSize ='2em';" 
 
-
-
+onmouseout="this.style.color='pink';
+this.style.backgroundColor='red';
+this.style.fontSize ='2em';">
+on mouse over & out
+</span>
 <?php 
 include("footer.php")?>

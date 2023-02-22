@@ -1,3 +1,11 @@
+//document.getElementById(id)
+//display or like echo
+//document.write
+//windows.alert
+//innerHTML
+//console.log
+//we use let to create variables
+
 //a simple function that triggers alert box
 function hello(){
     alert("Welcome to my website.");
@@ -18,12 +26,10 @@ function changeColor(where,newColor){
 //create variable and use it to change the color
 function changeColor(){
     let color = document.getElementById('background').value;
-    document.body.ATTRIBUTE_NODE.style.backgroundColor = color;
+    document.body.style.backgroundColor = color;
 }
-//document.getElementById(id)
-//display or like echo
-//document.write
-//windows.alert
-//innerHTML
-//console.log
-//we use let to create variables
+
+function changeFcolor(){
+    let fcolor = document.getElementById('fcolor').value;
+    document.body.style.color= color;
+}

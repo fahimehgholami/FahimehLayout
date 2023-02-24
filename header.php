@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <!--Calling JavaScript-->
+    <section class="text_for_php">
     <script src="js/site.js"></script>
   </head>
   <body>
@@ -73,5 +74,6 @@
         </div>
       </div>
     </nav>
-    <section class="text_for_php">
+    </section>
+    
 
